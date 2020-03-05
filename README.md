@@ -33,14 +33,3 @@ Meli - Challenge Tecnico BE - Mutantes
 
 
 
-
-**Git** - Versionado.
-**GitHub** - Repositorio.
-**Jersey** - Framework para creacion de RESTful Web Services.
-**Google App Engine** - Lenguaje de Programación.
-**Java8** - Lenguaje de Programación.
-**Java8** - Lenguaje de Programación.
-**Java8** - Lenguaje de Programación.
-**Java8** - Lenguaje de Programación.
-
-
