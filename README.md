@@ -18,4 +18,16 @@ Java 1.8
 
 # Herramientas/Tecnologías utilizadas
 
-* [**Java8**] - Lenguaje de Programacion utilizado
+**Java8** - Lenguaje de Programación.
+**Eclipse** - IDE de desarrollo.
+**Maven** - Gestor de dependencias\Paquetes.
+**Git** - Versionado.
+**GitHub** - Repositorio.
+**Jersey** - Framework para creacion de RESTful Web Services.
+**Google App Engine** - Lenguaje de Programación.
+**Java8** - Lenguaje de Programación.
+**Java8** - Lenguaje de Programación.
+**Java8** - Lenguaje de Programación.
+**Java8** - Lenguaje de Programación.
+
+
