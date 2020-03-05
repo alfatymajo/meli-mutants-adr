@@ -14,13 +14,26 @@ Meli - Challenge Tecnico BE - Mutantes
 *********
 
 ## Instalacion requerida
-Java 1.8
+**Java 1.8**
 
 # Herramientas/Tecnologías utilizadas
 
-**Java8** - Lenguaje de Programación.
-**Eclipse** - IDE de desarrollo.
-**Maven** - Gestor de dependencias\Paquetes.
+| Nombre        | Descripción   |
+| ------------- |:-------------:|
+| **Java 8**      | Lenguaje de Programación |
+| **Eclipse**      | IDE de desarrollo      |
+| **Maven** |  Gestor de dependencias\Paquetes      |
+| **Git**      | Versionado      |
+| **GitHub**      | Repositorio      |
+| **Jersey**      | Framework para creacion de RESTful Web Services      |
+| **Google App Engine**      | Entorno de Desarrollo - PaaS de Alojamiento de la API      |
+| **Mysql**      | Sistema de gestión de Bases de Datos relacionales      |
+| **Google Cloud SQL**      | Servicio web para el alojamiento de la base de datos.     |
+
+
+
+
+
 **Git** - Versionado.
 **GitHub** - Repositorio.
 **Jersey** - Framework para creacion de RESTful Web Services.
