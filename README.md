@@ -2,7 +2,7 @@
 
 
 # Meli - Challenge Tecnico BE - Mutantes
-### por Alexis Rodriguez
+#### Por Alexis Rodriguez
 
 *********
 ![alt text](https://github.com/alfatymajo/meli-mutants-adr/blob/master/xmen-portada.png "Portada Xmen")
@@ -30,6 +30,16 @@
 | **Google App Engine**      | Entorno de Desarrollo - PaaS de Alojamiento de la API      |
 | **Google Cloud SQL**      | Servicio web para el alojamiento de la base de datos      |
 | **Mysql**      | Sistema de gestión de Bases de Datos relacionales     |
+
+*********
+
+# Nivel 1 - Creación del metodo principal.
+
+En la carpeta Nivel 1 del presente repositorio se encuentras el proyecto con el codigo fuente correspondiente el primer requisito. Asimismo el proyecto se encuentra compilado en un archivo **.JAR** para luego ser importado y reutilizado en el proyecto correspondiente a los niveles 2 y 3.
+Algunas aclaraciones de la consigna.
+
+En base al ejemplo expuesto en el pdf con las consignas y en el texto que dice "Sabrás si un humano es mutante, si encuentras más de una secuencia de cuatro letras iguales, de forma oblicua, horizontal o vertical.", es que se toman en cuenta para el calculo todas las lineas horizontales, verticales y la diagonal principal de la matriz, como se ve en el ejemplo. Ademas al indicar que **ADN** corresponde a una matriz **NxN**, entonces se toman como validas solamente aquellas representaciones de ADN correspondientes a matrices cuadradas.
+
 
 
 
