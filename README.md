@@ -3,7 +3,6 @@
 
 # Meli - Challenge Tecnico BE - Mutantes
 ### por Alexis Rodriguez
-Meli - Challenge Tecnico BE - Mutantes
 
 *********
 ![alt text](https://github.com/alfatymajo/meli-mutants-adr/blob/master/xmen-portada.png "Portada Xmen")
@@ -16,9 +15,9 @@ Meli - Challenge Tecnico BE - Mutantes
 ## Instalacion requerida
 
 + **Java 1.8**
-+ **Google Cloud Tools For Eclipse**
++ **Google Cloud Tools For Eclipse** (Para testear la API de forma local)
 
-# Herramientas/Tecnologías utilizadas
+# Herramientas\Tecnologías utilizadas
 
 | Nombre        | Descripción   |
 | ------------- |:-------------:|
@@ -29,8 +28,8 @@ Meli - Challenge Tecnico BE - Mutantes
 | **GitHub**      | Repositorio      |
 | **Jersey**      | Framework para creacion de RESTful Web Services      |
 | **Google App Engine**      | Entorno de Desarrollo - PaaS de Alojamiento de la API      |
-| **Mysql**      | Sistema de gestión de Bases de Datos relacionales      |
-| **Google Cloud SQL**      | Servicio web para el alojamiento de la base de datos.     |
+| **Google Cloud SQL**      | Servicio web para el alojamiento de la base de datos      |
+| **Mysql**      | Sistema de gestión de Bases de Datos relacionales     |
 
 
 
