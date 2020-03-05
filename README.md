@@ -9,9 +9,13 @@ Meli - Challenge Tecnico BE - Mutantes
 ![alt text](https://github.com/alfatymajo/meli-mutants-adr/blob/master/xmen-portada.png "Portada Xmen")
 *********
 
-* Documento con la consigna del proyecto: (https://github.com/alfatymajo/meli-mutants-adr/blob/master/Challenge%20MeLi%20BE-%20Mutantes.pdf)
+* Documento con la consigna del proyecto: [Challenge MeLi BE- Mutantes.pdf](https://github.com/alfatymajo/meli-mutants-adr/blob/master/Challenge%20MeLi%20BE-%20Mutantes.pdf)
 
 *********
 
 ## Instalacion requerida
 Java 1.8
+
+# Herramientas/Tecnologías utilizadas
+
+* [**Java8**] - Lenguaje de Programacion utilizado
