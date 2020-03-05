@@ -15,6 +15,7 @@ Meli - Challenge Tecnico BE - Mutantes
 
 ## Instalacion requerida
 **Java 1.8**
+**Google Cloud Tools For Eclipse**
 
 # Herramientas/Tecnologías utilizadas
 
