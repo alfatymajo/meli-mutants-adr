@@ -65,7 +65,7 @@ La **API** en cuestión esta construida para que funcione en un **Entorno Estand
 
 | DESCRIPCION  | PETICION  | HEADER  | RESPUESTA
 | ------ | ------ | ------ | ------ |
-| Servicio Mutant | **POST** | **Content-Type: application/json** | Caso OK devuelve un **HTTP 200** (si es mutante) o **HTTP 403** en caso contrario
+| Servicio Mutant | **POST** | **Content-Type: application/json** | Caso OK devuelve un **HTTP 200** (si es mutante) o **HTTP 403** en caso contrario.
 
 Cuando se logre levantar la aplicacion en el entorno de app engine, la misma debe ser accedida mediante la siguiente URL que es generada por defecto: **http://localhost:8080/mutant**. Cabe destacar que la misma solo recibe peticiones **POST**.
 
@@ -89,4 +89,4 @@ Para terminar de configurar la aplicación y poder utilizarla sin inconvenientes
 
 A continuación se muestra una captura del contenido del mismo:
 
-![alt text](https://github.com/alfatymajo/meli-mutants-adr/blob/master/xmen-portada.png "Captura App Properties")
+![alt text](https://github.com/alfatymajo/meli-mutants-adr/blob/master/Nivel%203/captura-app-properties.png "Captura App Properties")
