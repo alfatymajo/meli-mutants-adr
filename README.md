@@ -104,7 +104,7 @@ db.local.url
 db.local.port
 ```
 
-Una vez realizado todo lo comentado anteriormente, se podria utilizar la aplicacion en el entorno local nin inconvenientes.
+Una vez realizado todo lo comentado anteriormente, se podria utilizar la aplicacion en el entorno local sin inconvenientes. Cabe destacar que el servicio **/mutant**, cada vez que reciba una peticion de ADN correcta, la misma se guardara en la base de datos, con el detalle de si el ADN consultado es mutante o no, asi como tambien el **resquest** enviado al servicio en formato JSON y en en formato Array. Todo en un registro por consulta.
 
 En la misma instancia del desafio se creo un servicio para traer al cliente las estadisticas de **ADNs** consultados en la aplicación, el cual se describe a continuación:
 
@@ -121,3 +121,8 @@ En cuanto al ultimo punto "Tener en cuenta que la API puede recibir fluctuacione
 Debido a esto mismo no se definio una estrategia a seguir para afrontar este requerimiento puntual, por lo que se deja pendiente para poder revisar el caso mas adelante.
 
 Tambienm siendo honestos, como segundo punto flojo de este proyecto se podria decir que los test unitarios/automaticos, ya que en base al desconocimiento en el area de testing (segun mi punto de vista), los test del proyecto no son del todo profesionales y eficientes. Igualmente se intento hacer lo mejor posblie en la creacion de dichos tests bajo criterio personal y busqueda en la WEB.
+
+Sin ir mas lejos hasta aqui llego el instructivo y detalle de como utilizar la aplicación propuesta como ejercio tecnico para **MELI**.
+
+**Atte**
+**Alexis Damian Rodriguez**
