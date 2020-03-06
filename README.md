@@ -61,9 +61,32 @@ La **API** en cuestión esta construida para que funcione en un **Entorno Estand
 
 *********
 
-## Detalles de la API
+## Detalles del servicio
 
 | DESCRIPCION  | PETICION  | HEADER  | RESPUESTA
 | ------ | ------ | ------ | ------ |
-| Servicio Mutant | POST | Content-Type: application/json | Devuelve 200 si es mutant o 403 en caso contrario
+| Servicio Mutant | **POST** | **Content-Type: application/json** | Caso OK devuelve un **HTTP 200** (si es mutante) o **HTTP 403** en caso contrario
 
+Cuando se logre levantar la aplicacion en el entorno de app engine, la misma debe ser accedida mediante la siguiente URL que es generada por defecto: **http://localhost:8080/mutant**. Cabe destacar que la misma solo recibe peticiones **POST**.
+
+La API se encuentra actualmente implementada en una instancia de **Google App Engine**, con el mismo comportamiento presentado en el entonrno local y se puede acceder mediante la siguiente URL:
+
+**http://meli-mutants-adr.appspot.com/mutant**
+
+Para poder correr la aplicacion en un ambiente local deberan importar la carpeta del proyecto (**ApiRest**) ubicada dentro de la carpeta **Nivel 2** en el repositorio.
+
+*********
+
+# Nivel 3 - Creación e integración de la API con la base de datos.
+
+Para este ultimo desafio se optó por subir la base de datos a una instancia de **Google Cloud SQL** y persistir los datos de la aplicación en la misma. Para que funcione en nuestro entorno local se debera contar con el servicio de **Mysql** y un servidor web (por ejemplo **Apache**) en el cual correr la instancia de la base de datos a la cual se le crearan las tablas necesarias para la aplicación. Se recomienda utilizar un enlatado de servicios, como por ejemplo **XAMPP**, para poder tener lista la base de datos sin mayor complicaciones de instalación y/o configuración.
+
+Debido a temas internos del entorno **Google App Engine**, la libreria de conexion a la base de datos no es la misma, por lo que existe una diferencia entre el entorno local y el implementado en **Google Cloud**. La unica diferencia es el metodo utilizado para armar el Connection String.
+
+El proyecto (el mismo que el importado en el nivel 2), del modo en el que se encuentra en el repositorio, ya esta listo para ser corrido en un entorno local. Para que funcione correctamente se deben crear las estructuras de las tablas utilizadas por la aplicación. Por este motivo se adjuntan los **Scripts SQL** en la capreta **Nivel 3**, en la carpeta **SQL Scripts**, necesarios para crear e inicializar las tablas principales.
+
+Para terminar de configurar la aplicación y poder utilizarla sin inconvenientes deberan introducir en el fichero de configuración, los datos correspondientes a la base de datos creada anteriormente. El mismo se encuentra en la siguiente ruta del proyecto: **ApiRest\WebContent\WEB-INF\application.properties**
+
+A continuación se muestra una captura del contenido del mismo:
+
+![alt text](https://github.com/alfatymajo/meli-mutants-adr/blob/master/xmen-portada.png "Captura App Properties")
