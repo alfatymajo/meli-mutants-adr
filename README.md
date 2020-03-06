@@ -89,4 +89,35 @@ Para terminar de configurar la aplicación y poder utilizarla sin inconvenientes
 
 A continuación se muestra una captura del contenido del mismo:
 
+*********
+
 ![alt text](https://github.com/alfatymajo/meli-mutants-adr/blob/master/Nivel%203/captura-app-properties.png "Captura App Properties")
+
+*********
+
+Las propiedades que deberan editar con los datos correspondientes a la base de datos que tengan en su entorno local se listan a continuación:
+
+```java
+db.user
+db.password
+db.local.url
+db.local.port
+```
+
+Una vez realizado todo lo comentado anteriormente, se podria utilizar la aplicacion en el entorno local nin inconvenientes.
+
+En la misma instancia del desafio se creo un servicio para traer al cliente las estadisticas de **ADNs** consultados en la aplicación, el cual se describe a continuación:
+
+| DESCRIPCION  | PETICION  | RESPUESTA
+| ------ | ------ | ------ |
+| Servicio Stats | **GET** | Devuelve las estadisticas de ADN consultados en un String con formato JSON.
+
+La dirección para utilizar el servicio implementado en **Google Cloud** es la siguiente:
+
+**http://meli-mutants-adr.appspot.com/stats**
+
+En cuanto al ultimo punto "Tener en cuenta que la API puede recibir fluctuaciones agresivas de tráfico (Entre 100 y 1 millón de peticiones por segundo).", se realizo un trabajo de investigación en la web y se llego a la conclusion que, si bien el codigo juega un papel importante al momentoo de hablar de performance, el mismo no resulta determinante como si podria serlo el servidor web en el cual esta alojada la aplicacion (infraestructura, poder de procesamiento, etc), asi como tambien el hecho de como esta armada y/o configfurada la base de datos para que no haga cuello de botella con la aplicación.
+
+Debido a esto mismo no se definio una estrategia a seguir para afrontar este requerimiento puntual, por lo que se deja pendiente para poder revisar el caso mas adelante.
+
+Tambienm siendo honestos, como segundo punto flojo de este proyecto se podria decir que los test unitarios/automaticos, ya que en base al desconocimiento en el area de testing (segun mi punto de vista), los test del proyecto no son del todo profesionales y eficientes. Igualmente se intento hacer lo mejor posblie en la creacion de dichos tests bajo criterio personal y busqueda en la WEB.
